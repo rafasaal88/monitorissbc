@@ -115,10 +115,10 @@ class Recibir(FuncionTransferencia):
 		"""
 		# Comprobar el dominio especificado
 		if self.dominio=='Vivero':
-			nombreFichero = "datosPacientes.txt"
+			nombreFichero = "Vivero.txt"
 			parametrosCandidatos = bcmp.clases()
 		else:
-			nombreFichero = "datosComputador.txt"
+			nombreFichero = "Invernadero.txt"
 			parametrosCandidatos = bcmc.clases()
 
 		diccionario = {}
